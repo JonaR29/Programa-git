@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comercializadora de Huevos J&J</title>
+  <link rel="shortcut icon" href="../Imagenes/logo.png"> 
+  <link rel="stylesheet" href="../CSS/register.css">
+  <link rel="stylesheet" href="../CSS/menu.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../Imagenes/logo.png" alt="Logo de la tienda de flores">
+      
+    </div>
+    <p><strong>COMERCIALIZADORA DE HUEVOS J&J</strong></p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>  
+        <li><a href="login.html">Iniciar Sesión</a></li>
+        <li><a href="register.html">Registrarse</a></li>
+        <li><a href="crearproducto.html">Crear Producto</a></li>
+        <li><a href="catalog.html">Catalogo</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="content">
+    <!-- Contenido dinámico -->
+  </div>
+  
+  <div class="container">
+    <h2>Registrarse</h2>
+    <form id="registerForm">
+      <div class="form-group">
+        <label for="firstName">Nombre:</label>
+        <input type="text" id="firstName" name="firstName" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Apellido:</label>
+        <input type="text" id="lastName" name="lastName" required>
+      </div>
+      <div class="form-group">
+        <label for="idNumber">Cédula:</label>
+        <input type="text" id="idNumber" name="idNumber" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Fecha de Nacimiento:</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <button type="submit" id="registerBtn">Registrarse</button>
+      <p id="registerMessage"></p>
+    </form>
+  </div>
+  <script src="../JavaScript/register.js"></script>
+  <script src="../JavaScript/menu.js"></script>
+</body>
+</html>

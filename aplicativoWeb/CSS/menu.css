@@ -1,0 +1,29 @@
+/* Estilos para el menú */
+header {
+  background-color: #fff;
+  padding: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li.current-page a {
+  pointer-events: none; /* Deshabilita los enlaces de la página actual */
+  color: gray; /* Color gris para los enlaces deshabilitados */
+}
